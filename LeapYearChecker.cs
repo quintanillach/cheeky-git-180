@@ -1,4 +1,8 @@
-﻿using System;
+// Coding Portfolio / 
+// This program checks if any given year is a leap year
+// 26 Mar 2019
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
