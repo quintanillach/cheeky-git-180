@@ -1,6 +1,8 @@
-// Coding Portfolio / 
-// This program checks if any given year is a leap year
-// 26 Mar 2019
+/* Purpose: C# program to check if a given year is a leap year
+ * Source: Sanfoundry
+ * Source Author: Manish Bhojasia
+ * Source URL:
+ * Date Accessed: 03/26/2019
 
 using System;
 using System.Collections.Generic;
