@@ -1,11 +1,17 @@
-﻿using System;
+/* Purpose: C# program to generate a marksheet for a student
+ * Source: Sanfoundry
+ * Source Author: Manish Bhojasia
+ * Source URL: https://www.sanfoundry.com/csharp-program-generate-student-marksheet
+ * Date Accessed: 03/30/2019
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace GenerateMarksheet
 {
-    //C# program to generate a marksheet for a student
     class Program
     {
         static void Main(string[] args)
@@ -56,7 +62,4 @@ namespace GenerateMarksheet
             Console.ReadLine();
         }
     }
-    /* This code is originally taken from Sanfoundry
-     * https://www.sanfoundry.com/csharp-program-generate-student-marksheet/
-     */
 }
