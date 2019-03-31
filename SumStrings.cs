@@ -1,12 +1,12 @@
 /*
- * C# Program to Read a String and find the Sum of all Digits in the String
+ * Purpose: C# Program to Read a String and find the Sum of all Digits in the String
+ * Source: Sanfoundry
+ * Source Author: Manish Bhojasia
+ * Source URL: https://www.sanfoundry.com/csharp-progam-string-sum-digits/
+ * Date Accessed: 03/31/2019
  */
-using System;
 
-//Source: Sanfoundry
-//Source Author: Manish Bhojasia
-//Source URL: https://www.sanfoundry.com/csharp-progam-string-sum-digits/
-//Date Accessed: 03/31/2019
+using System;
 
 class program
 {
