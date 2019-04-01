@@ -3,31 +3,30 @@
  * Source Author: Manish Bhojasia
  * Source URL:
  * Date Accessed: 03/26/2019
+ */
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LeapYearChecker
+namespace LeapYearChecker                                                                                   //Namespace
 {
-    class leapYear
+    class leapYear                                                                                          //Class
     {
-        static void Main(string[] args)
+        static void Main(string[] args)                                                                     //Main method
         {
-            //Constructor instantiates the object 
-            leapYear obj = new leapYear();
-            obj.readData();
-            obj.leap();
+            leapYear obj = new leapYear();                                                                  //Constructor
+            obj.readData();                                                                                 //Method Call readData()
+            obj.leap();                                                                                     //Method Call leap()
         }
-        int y;
-        public void readData()
+        int y;                                                                                              //Declare field 'y'
+        public void readData()                                                                              //Method readData()
         {
-            // User inputs the year they want to check
-            Console.WriteLine("Enter the year (YYYY) : ");
-            y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the year (YYYY) : ");                                                  //Display request for user input to console
+            y = Convert.ToInt32(Console.ReadLine());                                                        //Save user input to 'y'
         }
-        public void leap()
+        public void leap()                                                                                  //Method leap()
         {
             //if, else statement to state whether year is leap or not leap
             //if statement to check for remainders of 0 when year is divided by 4, 100, 400
