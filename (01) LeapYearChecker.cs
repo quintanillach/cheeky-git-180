@@ -27,21 +27,16 @@ namespace LeapYearChecker                                                       
             y = Convert.ToInt32(Console.ReadLine());                                                        //Save user input to 'y'
         }
         public void leap()                                                                                  //Method leap()
-        {
-            //if, else statement to state whether year is leap or not leap
-            //if statement to check for remainders of 0 when year is divided by 4, 100, 400
-            //if conditions are met then the year is a leap year
-            if ((y % 4 == 0 && y % 100 != 0) || (y % 400 == 0))
+        {                                                                                                   //if, else statement to state whether year is leap or not leap
+            if ((y % 4 == 0 && y % 100 != 0) || (y % 400 == 0))                                             //if statement to check for remainders of 0 when year is divided by 4, 100, 400
             {
-                Console.WriteLine("{0} is a Leap Year", y);
+                Console.WriteLine("{0} is a Leap Year", y);                                                 //when conditions are true then the year is a leap year
             }
-            //When conditions in the if statement are false, execute the else statement 
-            else
+            else                                                                                            //else statement executes in all other cases
             {
-                Console.WriteLine("{0} is not a Leap Year", y);
+                Console.WriteLine("{0} is not a Leap Year", y);                                             //When conditions are false, the year is not a leap year 
             }
-            //Force user input to end program
-            Console.ReadLine();
+            Console.ReadLine();                                                                             //Force user input to end program
         }
     }
 }
