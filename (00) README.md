@@ -15,40 +15,41 @@
 //--------------------------------------------------------------------------------------
 
 //PROJECT TASKS:
-//find suitable example programs hopefully written by professional programmers,
 
-//carefully read the program code to figure out (as much as possible) what the program does and how it does it
+//Find suitable example programs hopefully written by professional programmers,
 
-//document your findings by annotating the code with program comments that demonstrate your understanding of the program
+//Carefully read the program code to figure out (as much as possible) what the program does and how it does it
 
-//compile and get the program running... debug it if necessary
+//Document your findings by annotating the code with program comments that demonstrate your understanding of the program
 
-//augment the program to better demonstrate its functionality
+//Compile and get the program running... debug it if necessary
 
-//capture the program output and append it to the end of your source code
+//Augment the program to better demonstrate its functionality
+
+//Capture the program output and append it to the end of your source code
 
 //--------------------------------------------------------------------------------------
 
 //REQUIRED SEGMENTS:
 
-//the original source code of the sample program
+//The original source code of the sample program
 
-//document the source and (if possible) the author of the sample program
+//Document the source and (if possible) the author of the sample program
 
-//summarize the program functionality in a one-liner comment
+//Summarize the program functionality in a one-liner comment
 
-//summarize your changes and improvements to the program
+//Summarize your changes and improvements to the program
 
-//the final source code of the sample program
+//The final source code of the sample program
 
-//a terminal comment containing the sample program output
+//A terminal comment containing the sample program output
 
 //--------------------------------------------------------------------------------------
 
 //WAYS TO MAXIMIZE LEARNING:
 
-//expand the functionality of the sample program
+//Expand the functionality of the sample program
 
-//put the sample program aside, and rewrite it from scratch... as much as possible on your own
+//Put the sample program aside, and rewrite it from scratch... as much as possible on your own
 
-//choose and implement challenge programs from third-party textbooks and websites
+//Choose and implement challenge programs from third-party textbooks and websites
