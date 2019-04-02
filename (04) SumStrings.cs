@@ -6,20 +6,20 @@
  * Date Accessed: 03/31/2019
  */
 
-using System;
+using System;                                                                                   //Import System namespace
 
-class program
+class program                                                                                   //Generic program name
 {
-    public static void Main()
+    public static void Main()                                                                   //Main() method
     {
-        char[] string1 = new char[20];
-        int count, nc = 0, sum = 0, n, i;
-        Console.WriteLine("Enter the Length of the sentence  :");
-        n = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter the string1 containing both digits and alphabet :");
-        for (i = 0; i < n; i++)
+        char[] string1 = new char[20];                                                          //New  Char array 'string1'
+        int count, nc = 0, sum = 0, n, i;                                                       //Declare multiple ints on the same line
+        Console.WriteLine("Enter the Length of the sentence  :");                               //Display request for user input
+        n = int.Parse(Console.ReadLine());                                                      //Convert user input from string to int
+        Console.WriteLine("Enter the string1 containing both digits and alphabet :");           //Display request for string1 input
+        for (i = 0; i < n; i++)                                                                 //for loop
         {
-            string1[i] = Convert.ToChar(Console.Read());
+            string1[i] = Convert.ToChar(Console.Read());                                        //
         }
  
         for (count = 0; string1[count] != '\0'; count++)
