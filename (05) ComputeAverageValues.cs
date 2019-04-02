@@ -11,10 +11,10 @@ class program
 {
     public static void Main()
     {
-        int m, i, sum = 0, avg = 0;
-        Console.WriteLine("Enter the Number of Terms in the Array ");
-        m = int.Parse(Console.ReadLine());
-        int[] a = new int[m];
+        int m, i, sum = 0, avg = 0;                                             //Declare multiple int variables
+        Console.WriteLine("Enter the Number of Terms in the Array ");           //Display request for user input
+        m = int.Parse(Console.ReadLine());                                      //Convert user input from string to int, then write fo var 'm'
+        int[] a = new int[m];                                                   //Create int array 'a' with index of value 'm'
         Console.WriteLine("Enter the Array Elements ");
         for (i = 0; i < m; i++)
         {
