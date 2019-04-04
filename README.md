@@ -1,55 +1,47 @@
 # mssa-ct1-quintanilla
 
-//--------------------------------------------------------------------------------------
+Purpose
 
-//This repository contains sample programs for my coding portfolio. This portfolio is intended to demonstrate my knowledge of the C# programming language and depict my progression during the 16-week course.
+	This repository contains sample programs for my coding portfolio. This portfolio is intended to demonstrate my knowledge of the C# programming language and depict my progression during the 16-week course.
 
-//--------------------------------------------------------------------------------------
+	The Microsoft Systems and Software Academy (MSSA) is a course which offers transitioning servicemembers and veterans an opportunity
 
-//The Microsoft Systems and Software Academy (MSSA) is a course which offers transitioning servicemembers and veterans an opportunity
+--------------------------------------------------------------------------------------
 
-//....................
+Project Tasks:
 
-//The final project in this class is to produce a portfolio of at least 50 sample c# programs that demonstrate topics discussed in the class. This repository will contain a collection of possible (suggested) sample programs provided by the instructor for task #1 (below).
+	- Find suitable example programs hopefully written by professional programmers,
 
-//--------------------------------------------------------------------------------------
+	- Carefully read the program code to figure out (as much as possible) what the program does and how it does it
 
-//PROJECT TASKS:
+	- Document your findings by annotating the code with program comments that demonstrate your understanding of the program
 
-//Find suitable example programs hopefully written by professional programmers,
+	- Compile and get the program running... debug it if necessary
 
-//Carefully read the program code to figure out (as much as possible) what the program does and how it does it
+	- Augment the program to better demonstrate its functionality
 
-//Document your findings by annotating the code with program comments that demonstrate your understanding of the program
+	- Capture the program output and append it to the end of your source code
 
-//Compile and get the program running... debug it if necessary
+--------------------------------------------------------------------------------------
 
-//Augment the program to better demonstrate its functionality
+Required Segments:
 
-//Capture the program output and append it to the end of your source code
+	1. The original source code of the sample program
 
-//--------------------------------------------------------------------------------------
+	2. Document the source and (if possible) the author of the sample program
 
-//REQUIRED SEGMENTS:
+	3. Summarize the program functionality in a one-liner comment
 
-//The original source code of the sample program
+	4. Summarize your changes and improvements to the program
 
-//Document the source and (if possible) the author of the sample program
+	5. The final source code of the sample program
 
-//Summarize the program functionality in a one-liner comment
+	6. A terminal comment containing the sample program output
 
-//Summarize your changes and improvements to the program
+--------------------------------------------------------------------------------------
 
-//The final source code of the sample program
+Organization:
 
-//A terminal comment containing the sample program output
+	The repository is organized into multiple folders to separate programs by use as well as dividing Solutions into its unique Projects 	which may require unique explanations for their interaction.
 
-//--------------------------------------------------------------------------------------
-
-//WAYS TO MAXIMIZE LEARNING:
-
-//Expand the functionality of the sample program
-
-//Put the sample program aside, and rewrite it from scratch... as much as possible on your own
-
-//Choose and implement challenge programs from third-party textbooks and websites
+	The naming convention within the /Conceptual is <CATEGORY_NAMESPACE> for organization without creating additional folder instrastructure
