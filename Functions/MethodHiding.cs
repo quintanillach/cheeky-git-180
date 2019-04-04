@@ -1,5 +1,9 @@
 /*
  * C# Program Illustrate Method Hiding
+ * Source: Sanfoundry
+ * Source Author: Manish Bhojasia
+ * Source URL: https://www.sanfoundry.com/csharp-program-method-hiding/
+ * Date Accessed: 04/04/2019
  */
 using System;
 using System.Collections.Generic;
