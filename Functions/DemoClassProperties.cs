@@ -1,5 +1,9 @@
 /*
  *  C# Program to Demonstrate Properties of the Class
+ * Source: Sanfoundry
+ * Source Author: Manish Bhojasia
+ * Source URL: https://www.sanfoundry.com/csharp-program-class-properties/
+ * Date Accessed: 04/04/2019
  */
 using System;
 class Student
