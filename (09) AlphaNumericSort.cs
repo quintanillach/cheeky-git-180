@@ -1,6 +1,35 @@
-// NOTE: This code is free to use in any program.
-// ... It was developed by Dot Net Perls.
+/* 
+ * Source: DotNetPerls
+ * Source Author: Sam Allen
+ * Source URL: https://www.dotnetperls.com/alphanumeric-sorting
+ * Date Accessed: 04/04/2019
+ */
+using System;
+using System.Collections;
 
+class Program
+{
+    static void Main()
+    {
+        string[] highways = new string[]
+        {
+            "100F",
+            "50F",
+            "SR100",
+            "SR9"
+        };
+
+        // We want to sort a string array called highways in an alphanumeric way.
+        // ... Call the Array.Sort method.
+        Array.Sort(highways, new AlphanumComparatorFast());
+
+        // ... Display the results.
+        foreach (string h in highways)
+        {
+            Console.WriteLine(h);
+        }
+    }
+}
 public class AlphanumComparatorFast : IComparer
 {
     public int Compare(object x, object y)
