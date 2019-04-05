@@ -2,7 +2,7 @@
  * Purpose: C# Program to Compute Average for the Set of Values
  * Source: Sanfoundry
  * Source Author: Manish Bhojasia
- * Source URL:
+ * Source URL: https://www.sanfoundry.com/csharp-program-average-values/
  * Date Accessed: 03/31/2019
  */
 using System;
