@@ -34,7 +34,8 @@ namespace Program
         // the default values and accepted parameters for the instantiation of the
         // object. This constructor is later invoked using the 'new' keyword in the
         // Main method. The parameters are then accepted and assigned to the values
-        // of the fields above.
+        // of the fields above. The instance is then passed on to the methods below
+        // for use in their calculations.
         TwoDMatrix(int x, int y)
         {
             M = x;
@@ -42,8 +43,14 @@ namespace Program
             A = new int[M, N];
             B = new int[M * N];
         }
+
         public void ReadMatrix()
         {
+            // This ReadMatrix method uses a for loop to fetch and save the iterated index
+            // of the multidimensional array based on the input of the parameters.
+            // The for loop receives the parameters from the instance of TwoDMatrix()
+            // and converts the string into integers. These integers are then accepted
+            // as arguments for array 'A' as the index in the initial multidimensional array.
             for (int i = 0; i < M; i++)
             {
                 for (int j = 0; j < N; j++)
@@ -53,6 +60,7 @@ namespace Program
                 }
             }
         }
+
         public void PrintD()
         {
             for (int i = 0; i < M; i++)
