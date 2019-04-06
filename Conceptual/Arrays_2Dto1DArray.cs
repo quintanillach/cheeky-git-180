@@ -46,10 +46,10 @@ namespace Program
 
         public void ReadMatrix()
         {
-            // This ReadMatrix method uses a for loop to fetch and save the iterated index
+            // This ReadMatrix method uses for loops to fetch and save the iterated index
             // of the multidimensional array based on the input of the parameters.
             // The for loop receives the parameters from the instance of TwoDMatrix()
-            // and converts the string into integers. These integers are then accepted
+            // and converts the string into integers. These integers are then returned
             // as arguments for array 'A' as the index in the initial multidimensional array.
             for (int i = 0; i < M; i++)
             {
@@ -63,16 +63,19 @@ namespace Program
 
         public void PrintD()
         {
+            // This PrintD() method uses for loops to iterate the arrays again based and
+            // assign values to the arrays. These indeces are then printed with horizontal
+            // tabs using '\t' and a new line with '\n' to display as a matrix
             for (int i = 0; i < M; i++)
             {
                 for (int j = 0; j < N; j++)
                 {
                     Console.Write("{0}\t", A[i, j]);
- 
                 }
                 Console.Write("\n");
             }
         }
+
         public void Convert()
         {
             int k = 0;
