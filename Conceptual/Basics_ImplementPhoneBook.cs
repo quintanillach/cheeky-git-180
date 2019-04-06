@@ -14,11 +14,19 @@ class PhoneBook
  
     static void Main(string[] arg)
     {
+        // The Hashtable class represents a collection of key pairs which
+        // are organized based on the hash code of the key. This program
+        // creates a new hashtable named 'tab' and uses it to build a phone
+        // book with the various inputs.
         Hashtable tab = new Hashtable();
         string fileName;
-        if
+
+        // The original file put the conditions inside of the brackets which
+        // is not good coding practice. Fixed this formatting by cutting and pasting
+        // to the correct spot.
+        if (arg.Length > 0)
         { 
-            (arg.Length > 0) fileName = arg[0];
+            fileName = arg[0];
         } 
         else
         { 
