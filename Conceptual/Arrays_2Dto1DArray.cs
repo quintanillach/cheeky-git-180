@@ -12,55 +12,73 @@ using System.Text;
  
 namespace Program
 {
-    class twodmatrix
+    // Renamed the class and all methods using Pascal case per the .NET conventions
+    class TwoDMatrix
     {
-        int m, n;
+        // These integers are fields since they are written directly in the class.
+        // The original program declared these fields without any access modifiers,
+        // which is poor security practice since it does not set any restrictions
+        // for external entities. I refactored these using the private modifier
+        // to transform them into backing fields, then created public properties
+        // which can get and set without risking exceptions.
+        private int m, n;
         int[,] a;
         int[] b;
-        twodmatrix(int x, int y)
+
+        public int M { get => m; set => m = value; }
+        public int N { get => n; set => n = value; }
+        public int[,] A { get => a; set => a = value; }
+        public int [] B { get => b; set => b = value; }
+
+        // This is an example of an explicit constructor which allows users to set
+        // the default values and accepted parameters for the instantiation of the
+        // object. This constructor is later invoked using the 'new' keyword in the
+        // Main method. The parameters are then accepted and assigned to the values
+        // of the fields above.
+        TwoDMatrix(int x, int y)
         {
-            m = x;
-            n = y;
-            a = new int[m, n];
-            b = new int[m * n];
+            M = x;
+            N = y;
+            A = new int[M, N];
+            B = new int[M * N];
         }
-        public void readmatrix()
+        public void ReadMatrix()
         {
-            for (int i = 0; i < m; i++)
+            for (int i = 0; i < M; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < N; j++)
                 {
                     Console.WriteLine("a[{0},{1}]=", i, j);
-                    a[i, j] = Convert.ToInt32(Console.ReadLine());
+                    A[i, j] = System.Convert.ToInt32(Console.ReadLine());
                 }
             }
         }
-        public void printd()
+        public void PrintD()
         {
-            for (int i = 0; i < m; i++)
+            for (int i = 0; i < M; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < N; j++)
                 {
-                    Console.Write("{0}\t", a[i, j]);
+                    Console.Write("{0}\t", A[i, j]);
  
                 }
                 Console.Write("\n");
             }
         }
-        public void convert()
+        public void Convert()
         {
             int k = 0;
-            for (int i = 0; i < m; i++)
+            for (int i = 0; i < M; i++)
             {
-                for (int j = 0; j < n; j++)
+                for (int j = 0; j < N; j++)
                 {
-                    b[k++] = a[i, j];
+                    B[k++] = A[i, j];
                 }
             }
         }
-        public void printoned()
+        public void PrintOneD()
         {
-            for (int i = 0; i < m * n; i++)
+            for (int i = 0; i < M * N; i++)
             {
                 Console.WriteLine("{0}\t", b[i]);
             }
@@ -69,14 +87,14 @@ namespace Program
  
         public static void Main(string[] args)
         {
-            twodmatrix obj = new twodmatrix(2,3);
+            TwoDMatrix obj = new TwoDMatrix(2,3);
             Console.WriteLine("Enter the Elements : ");
-            obj.readmatrix();
+            obj.ReadMatrix();
             Console.WriteLine("\t\t Given 2-D Array(Matrix) is : ");
-            obj.printd();
-            obj.convert();
+            obj.PrintD();
+            obj.Convert();
             Console.WriteLine("\t\t Converted 1-D Array is : ");
-            obj.printoned();
+            obj.PrintOneD();
             Console.ReadLine();
         }
     }
