@@ -78,6 +78,9 @@ namespace Program
 
         public void Convert()
         {
+            // This Convert() method declares int 'k' as the index of array 'B' and iterates
+            // the index. Array 'B' is assigned based on the correlating value of the index 
+            // in array 'A'.
             int k = 0;
             for (int i = 0; i < M; i++)
             {
@@ -89,6 +92,8 @@ namespace Program
         }
         public void PrintOneD()
         {
+            // This PrintOneD() method prints the values of the elements within array 'B'
+            // as a one-dimensional matrix.
             for (int i = 0; i < M * N; i++)
             {
                 Console.WriteLine("{0}\t", b[i]);
@@ -98,6 +103,13 @@ namespace Program
  
         public static void Main(string[] args)
         {
+            // Here in the Main() method, the object TwoDMatrix is instantiated using the
+            // parameters set in the constructor above. A copy of the address of this 
+            // instance is then passed to the methods since class is a reference type,
+            // and the initial integers are passed through the functions of the methods
+            // finally returning and saving the values of the arrays according to the
+            // specifications of the fields. The rest of the program prints the results of 
+            // the methods and waits for the user to press Enter to terminate.
             TwoDMatrix obj = new TwoDMatrix(2,3);
             Console.WriteLine("Enter the Elements : ");
             obj.ReadMatrix();
