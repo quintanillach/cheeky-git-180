@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Difference
+namespace Exceptions
 {
     // Renamed the classes and methods using Pascal case per .NET conventions
     class ArrayOutOfIndex
@@ -51,7 +51,7 @@ namespace Difference
             }
         }
     }
-    class ClassMain
+    class Difference
     {
         static void Main(string [] args)
         {

@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
  
-namespace Program
+namespace Arrays
 {
     // Renamed the class and all methods using Pascal case per the .NET conventions
     class TwoDMatrix
