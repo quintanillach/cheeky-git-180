@@ -7,11 +7,13 @@
  */
  
 using System;
-class Program
+
+namespace Arrays
+{
+ class CopyBetweenArrays
 {
     static void Main()
     {
- 
         int n, m, size;
         Console.WriteLine("Enter the size of the Array : ");
         n = Convert.ToInt32(Console.ReadLine());
@@ -36,4 +38,6 @@ class Program
         }
         Console.Read();
     }
+}
+
 }
