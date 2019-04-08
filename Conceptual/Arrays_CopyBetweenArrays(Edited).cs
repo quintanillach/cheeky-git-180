@@ -15,26 +15,32 @@ namespace Arrays
    static void Main()
    {
     // These integer variables are declared at the beginning of the program
-    //
-    int n, m, size;
+    // since they are used throughout the method. None of them are assigned
+    // values explicitly, which means the compiler assigns them a default
+    // value of 0. The program then displays a request for the user to input
+    // the number of elements in the array
+    int sourceSize, targetSize, newSize;
     Console.WriteLine("Enter the size of the Array : ");
-    n = Convert.ToInt32(Console.ReadLine());
-    int [] a = new int[n];
+    sourceSize = Convert.ToInt32(Console.ReadLine());
+    int [] sourceArray = new int[sourceSize];
+    
     Console.WriteLine("Enter the Elements of the First Array :");
-    for (int i = 0; i <n; i++)
+    for (int i = 0; i < sourceSize; i++)
       {
-        a[i] = Convert.ToInt32(Console.ReadLine());
+        sourceArray[i] = Convert.ToInt32(Console.ReadLine());
       }
+    
     Console.WriteLine("Enter the Size of the Target Array : ");
-    m = Convert.ToInt32(Console.ReadLine());
-    int[] target = new int[m];
+    targetSize = Convert.ToInt32(Console.ReadLine());
+    int[] targetArray = new int[targetSize];
+    
     Console.WriteLine("Enter the section of the First Array "+ 
                       "that has to be Copied :");
     size = Convert.ToInt32(Console.ReadLine());
-    Array.Copy(a, 0, target, 0, size);
+    Array.Copy(sourceArray, 0, targetArray, 0, newSize);
     Console.WriteLine("New Array With The Specified Section of Elements "+
                       "in the First Array");
-    foreach (int value in target)
+    foreach (int value in targetArray)
     {
        Console.WriteLine(value);
     }
