@@ -18,6 +18,14 @@ namespace Exceptions
             double Num1, Num2;
             double Result = 0.00;
             char op;
+            
+            // The bulk of the program and logic is contained within the try block
+            // to guard any code which may cause an exception to be thrown. The
+            // code will execute until an exception is thrown or until the block
+            // is complete. If an exception is throw, the Common Language Runtime (CLR)
+            // looks for the corresponding catch block which handles the error. If the
+            // CLR does not find a catch block in the executing method, the CLR then
+            // looks in the calling method and so on up the call stack.
             try
             {
                 Console.Write("Enter your First Number :  ");
