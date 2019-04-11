@@ -1,10 +1,6 @@
-# mssa-ct1-quintanilla
+# MSSA Programming Portfolio
 
-## Purpose
-
-	This repository contains sample programs for my coding portfolio. This portfolio is intended to demonstrate my knowledge of the C# programming language and depict my progression during the 16-week course.
-
-	The Microsoft Systems and Software Academy (MSSA) is a course which offers transitioning servicemembers and veterans an opportunity
+A repository intended to demonstrate my knowledge of the C# programming language and depict my progression through the 16-week course.
 
 ## Project Tasks:
 
@@ -39,3 +35,7 @@
 	The repository is organized into multiple folders to separate programs by use as well as dividing Solutions into its unique Projects 	which may require unique explanations for their interaction.
 
 	The naming convention within the /Conceptual is <CATEGORY_NAMESPACE> for organization without creating additional folder instrastructure
+
+## Authors
+
+* **Christopher Quintanilla**
