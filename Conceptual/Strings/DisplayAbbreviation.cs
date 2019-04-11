@@ -13,27 +13,39 @@ using System.Text;
 // Renamed the namespace, class, and methods using Pascal case per .NET conventions
 namespace Strings
 {
-    class DisplayAbbreviation
+    // Added the public access modifier for consistency
+   public class DisplayAbbreviation
     {
-        string str;                                                     //Declares the 'str' field to enable all methods to use the field and prevent redundancy
+        // Here the field 'str' is declared to allow all methods to access
+        // one variable rather than create separate instances. The original
+        // code did not use an access modifier on the field. I added the
+        // private access modifier to transform it into a backing field
+        // and prevent external sources from corrupting the program. I 
+        // added the property Str to get and set the field.
+        private string str;
 
-        public void ReadData()                                          //Create 'ReadData()' method
+        public string Str { get => str; set => str = value; }
+
+        public void ReadData()
         {
-            Console.WriteLine("Enter a String : ");                     //Display request for user input for a string of text to abbreviate
-            str = Console.In.ReadLine();                                //Assign value to 'str' field based on user input
+            // The ReadData() method simply requests the user to input
+            // a string to abbreviate and assigns the value to the
+            // 'Str' property
+            Console.WriteLine("Enter a String : ");
+            Str = Console.In.ReadLine();
         }
 
         public void Abbreviate()                                             //Create the 'Abbreviate()' method
         {
             char[] c, result;                                           //Declare the char and result arrays on the same line
             int j = 0;                                                  //Declare int j and assign an initial value of 0
-            c = new char[str.Length];                                   //Instantiate new char array and use built-in property to retreive total number of elements from the string 'str'
-            result = new char[str.Length];                              //Instantiate new char array and use built-in property to retreive total number of elements from the string 'str'
-            c = str.ToCharArray();                                      //Uses built-in method to copy characters in this instance of the string 'str' to an array of Unicode characters
+            c = new char[Str.Length];                                   //Instantiate new char array and use built-in property to retreive total number of elements from the string 'str'
+            result = new char[Str.Length];                              //Instantiate new char array and use built-in property to retreive total number of elements from the string 'str'
+            c = Str.ToCharArray();                                      //Uses built-in method to copy characters in this instance of the string 'str' to an array of Unicode characters
             result[j++] = (char)((int)c[0] ^ 32);                       //Adds character to result[] 
             result[j++] = '.';                                          //Appends 
 
-            for (int i = 0; i < str.Length -1; i++)                     //
+            for (int i = 0; i < Str.Length -1; i++)                     //
             {
                 if (c[i] == ' ' || c[i] == '\t' || c[i] == '\n')        //if the character in c[] is a space, tab, or break
                 {
@@ -42,7 +54,7 @@ namespace Strings
                     result[j++] = '.';                                  //Add '.' between characters
                 }
             }
-            Console.Write("The Abbreviation for {0} is ", str);         //Display the initial string from user input
+            Console.Write("The Abbreviation for {0} is ", Str);         //Display the initial string from user input
             Console.WriteLine(result);                                  //Display the result[]
             Console.ReadLine();                                         //Wait for the user to press a button before closing
         }
