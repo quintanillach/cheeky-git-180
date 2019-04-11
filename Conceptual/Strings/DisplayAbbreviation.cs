@@ -10,9 +10,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DisplayAbbreviation                                           //Establishes DisplayAbbreviation namespace
+// Renamed the namespace, class, and methods using Pascal case per .NET conventions
+namespace Strings
 {
-    class abbreviation
+    class DisplayAbbreviation
     {
         string str;                                                     //Declares the 'str' field to enable all methods to use the field and prevent redundancy
 
@@ -22,7 +23,7 @@ namespace DisplayAbbreviation                                           //Establ
             str = Console.In.ReadLine();                                //Assign value to 'str' field based on user input
         }
 
-        public void abbre()                                             //Create the 'abbre()' method
+        public void Abbreviate()                                             //Create the 'Abbreviate()' method
         {
             char[] c, result;                                           //Declare the char and result arrays on the same line
             int j = 0;                                                  //Declare int j and assign an initial value of 0
@@ -50,7 +51,7 @@ namespace DisplayAbbreviation                                           //Establ
         {
             abbreviation obj = new abbreviation();                      //Create a static constructor to instantiate an object from our class
             obj.ReadData();                                             //Invoke ReadData Method
-            obj.abbre();                                                //Invoke abbre Method
+            obj.abbre();                                                //Invoke Abbreviate Method
         }
     }
 }
