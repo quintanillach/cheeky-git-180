@@ -59,11 +59,16 @@ namespace Strings
             Console.ReadLine();                                         //Wait for the user to press a button before closing
         }
 
-        public static void Main()                                       //Main method
+        public static void Main()
         {
-            abbreviation obj = new abbreviation();                      //Create a static constructor to instantiate an object from our class
-            obj.ReadData();                                             //Invoke ReadData Method
-            obj.abbre();                                                //Invoke Abbreviate Method
+            // The Main() method only contains the default constructor
+            // which instantiates the class as an object and then
+            // passes a copy of the address of the object to
+            // the ReadData() and Abbreviate() methods above
+            // and saves the data returned to the object itself
+            DisplayAbbreviation obj = new DisplayAbbreviation();
+            obj.ReadData();
+            obj.Abbreviate();
         }
     }
 }
