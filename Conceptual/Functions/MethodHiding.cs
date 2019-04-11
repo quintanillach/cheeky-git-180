@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApplication1
+namespace Functions
 {
     public class Demo
     {
@@ -17,7 +17,7 @@ namespace ConsoleApplication1
         {
             return r * r;
         }
-        public void func()
+        public void Func()
         {
             Console.WriteLine("Base Class");
         }
@@ -29,7 +29,7 @@ namespace ConsoleApplication1
  
             return base.Area(r) * r;
         }
-        public new void func()
+        public new void Func()
         {
             Console.WriteLine("Derived Class");
         }
@@ -40,7 +40,7 @@ namespace ConsoleApplication1
         {
             A o1 = new A();
             Console.WriteLine(o1.Area(20));
-            o1.func();
+            o1.Func();
             Console.ReadLine();
         }
     }
