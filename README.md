@@ -1,14 +1,12 @@
 # mssa-ct1-quintanilla
 
-Purpose
+## Purpose
 
 	This repository contains sample programs for my coding portfolio. This portfolio is intended to demonstrate my knowledge of the C# programming language and depict my progression during the 16-week course.
 
 	The Microsoft Systems and Software Academy (MSSA) is a course which offers transitioning servicemembers and veterans an opportunity
 
---------------------------------------------------------------------------------------
-
-Project Tasks:
+## Project Tasks:
 
 	- Find suitable example programs hopefully written by professional programmers,
 
@@ -22,9 +20,7 @@ Project Tasks:
 
 	- Capture the program output and append it to the end of your source code
 
---------------------------------------------------------------------------------------
-
-Required Segments:
+## Required Segments:
 
 	1. The original source code of the sample program
 
@@ -38,9 +34,7 @@ Required Segments:
 
 	6. A terminal comment containing the sample program output
 
---------------------------------------------------------------------------------------
-
-Organization:
+## Organization Strategy:
 
 	The repository is organized into multiple folders to separate programs by use as well as dividing Solutions into its unique Projects 	which may require unique explanations for their interaction.
 
