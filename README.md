@@ -1,30 +1,22 @@
-# mssa-ct1-quintanilla
+# MSSA Programming Portfolio
 
-Purpose
+A repository intended to demonstrate my knowledge of the C# programming language and depict my progression through the 16-week course.
 
-	This repository contains sample programs for my coding portfolio. This portfolio is intended to demonstrate my knowledge of the C# programming language and depict my progression during the 16-week course.
+## Project Tasks:
 
-	The Microsoft Systems and Software Academy (MSSA) is a course which offers transitioning servicemembers and veterans an opportunity
+[] Find suitable example programs hopefully written by professional programmers,
 
---------------------------------------------------------------------------------------
+[] Carefully read the program code to figure out (as much as possible) what the program does and how it does it
 
-Project Tasks:
+[] Document your findings by annotating the code with program comments that demonstrate your understanding of the program
 
-	- Find suitable example programs hopefully written by professional programmers,
+[] Compile and get the program running... debug it if necessary
 
-	- Carefully read the program code to figure out (as much as possible) what the program does and how it does it
+[] Augment the program to better demonstrate its functionality
 
-	- Document your findings by annotating the code with program comments that demonstrate your understanding of the program
+[] Capture the program output and append it to the end of your source code
 
-	- Compile and get the program running... debug it if necessary
-
-	- Augment the program to better demonstrate its functionality
-
-	- Capture the program output and append it to the end of your source code
-
---------------------------------------------------------------------------------------
-
-Required Segments:
+## Required Segments:
 
 	1. The original source code of the sample program
 
@@ -38,10 +30,12 @@ Required Segments:
 
 	6. A terminal comment containing the sample program output
 
---------------------------------------------------------------------------------------
-
-Organization:
+## Organization Strategy:
 
 	The repository is organized into multiple folders to separate programs by use as well as dividing Solutions into its unique Projects 	which may require unique explanations for their interaction.
 
 	The naming convention within the /Conceptual is <CATEGORY_NAMESPACE> for organization without creating additional folder instrastructure
+
+## Authors
+
+* **Christopher Quintanilla**
