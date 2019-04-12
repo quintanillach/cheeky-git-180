@@ -4,17 +4,17 @@ A repository intended to demonstrate my knowledge of the C# programming language
 
 ## Project Tasks:
 
--[ ] Find suitable example programs hopefully written by professional programmers,
+- [ ] Find suitable example programs hopefully written by professional programmers,
 
--[ ] Carefully read the program code to figure out (as much as possible) what the program does and how it does it
+- [ ] Carefully read the program code to figure out (as much as possible) what the program does and how it does it
 
--[ ] Document your findings by annotating the code with program comments that demonstrate your understanding of the program
+- [ ] Document your findings by annotating the code with program comments that demonstrate your understanding of the program
 
--[ ] Compile and get the program running... debug it if necessary
+- [ ] Compile and get the program running... debug it if necessary
 
--[ ] Augment the program to better demonstrate its functionality
+- [ ] Augment the program to better demonstrate its functionality
 
--[ ] Capture the program output and append it to the end of your source code
+- [ ] Capture the program output and append it to the end of your source code
 
 ## Required Segments:
 
