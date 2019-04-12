@@ -1,0 +1,10 @@
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\bin\Debug\StatisticsFunctions.exe.config
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\bin\Debug\StatisticsFunctions.exe
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\bin\Debug\StatisticsFunctions.pdb
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.csprojAssemblyReference.cache
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.Form1.resources
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.Properties.Resources.resources
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.csproj.GenerateResource.cache
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.csproj.CoreCompileInputs.cache
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.exe
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem01\StatisticsFunctions\obj\Debug\StatisticsFunctions.pdb
