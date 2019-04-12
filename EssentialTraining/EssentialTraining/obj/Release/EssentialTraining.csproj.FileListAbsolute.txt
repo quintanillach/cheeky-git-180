@@ -1,0 +1,6 @@
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTraining\bin\Release\EssentialTraining.dll
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTraining\bin\Release\EssentialTraining.pdb
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTraining\obj\Release\EssentialTraining.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTraining\obj\Release\EssentialTraining.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTraining\obj\Release\EssentialTraining.dll
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTraining\obj\Release\EssentialTraining.pdb
