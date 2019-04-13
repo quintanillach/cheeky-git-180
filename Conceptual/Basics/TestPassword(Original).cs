@@ -1,5 +1,4 @@
 /* C# program to take userid and password. After three wrong attempts, user will be rejected
- * Purpose: C# Program to Compute Average for the Set of Values
  * Source: W3 Resource
  * Source Author: N/A
  * Source URL: https://www.w3resource.com/csharp-exercises/data-types/csharp-data-type-exercise-3.php
