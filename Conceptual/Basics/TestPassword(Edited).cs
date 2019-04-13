@@ -10,44 +10,47 @@ using System;
 namespace Basics
 {
 
-  public class Exercise3
-  {
-  public static void Main()
-  {
-  string username, password;
-  int ctr = 0,dd=0;
-         Console.Write("\n\nCheck username and password :\n");
-       Console.Write("N.B. : Defaule username and password is : username and password\n");
-         Console.Write("---------------------------------\n"); 
-  do
-  {
-  Console.Write("Input a username: ");
-  username = Console.ReadLine();
+    public class TestPassword
+    {
+        public static void Main()
+        {
+            // The username and password variables are declared here along with
+            // integer variables 
+            string username, password;
+            int attempts = 0, success = 0;
+            Console.Write("\n\nCheck username and password :\n");
+            Console.Write("N.B. : Defaule username and password is : username and password\n");
+            Console.Write("---------------------------------\n");
+            do
+            {
+                Console.Write("Input a username: ");
+                username = Console.ReadLine();
 
-  Console.Write("Input a password: ");
-  password = Console.ReadLine();
-  if( username == "username" && password == "password" )
-  {
-      dd=1;
-      ctr=3;
-  }
+                Console.Write("Input a password: ");
+                password = Console.ReadLine();
 
-  else
-  {
-      dd=0;
-      ctr++;
-  }
-  }
-  while (( username != "username" || password != "password" )
-          && (ctr != 3));
-          if (dd == 0)
-          {
-              Console.Write("\nLogin attemp more than three times. Try later!\n\n");
-          }
-          else  
-          if(dd==1)
-          {
-              Console.Write("\nPassword entered successfull!\n\n");	}         
-      }
-  }
+                if (username == "username" && password == "password")
+                {
+                    success = 1;
+                    attempts = 3;
+                }
+
+                else
+                {
+                    success = 0;
+                    attempts++;
+                }
+            }
+            while ((username != "username" || password != "password")
+                    && (attempts != 3));
+            if (success == 0)
+            {
+                Console.Write("\nLogin attemp more than three times. Try later!\n\n");
+            }
+            else if (success == 1)
+            {
+                Console.Write("\nPassword entered successfull!\n\n");
+            }
+        }
+    }
 }

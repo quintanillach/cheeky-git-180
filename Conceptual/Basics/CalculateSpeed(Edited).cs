@@ -27,8 +27,16 @@ namespace Basics
 
             // Added an introductory statement for the program
             // The console requests the user input data and
+            // converts the input from string to single floating
+            // point type numbers. The floats are then assigned to the
+            // local variables and used in several equations to calculate
+            // the speed in miles per hour and kilometers per hour
             Console.WriteLine("A program to calculate speed based on given time and distance");
             Console.WriteLine("-------------------------------------------------------------");
+
+            // Added try-catch blocks to handle general
+            // errors. These errors would most likely result from
+            // invalid input format.
             try
             {
                 Console.Write("Input travel distance (meters): ");
@@ -48,9 +56,10 @@ namespace Basics
                 kph = (distance / 1000.0f) / (timeSec / 3600.0f);
                 mph = kph / 1.609f;
 
-                Console.WriteLine("Your speed in meters/sec is {0}", mps);
-                Console.WriteLine("Your speed in km/h is {0}", kph);
-                Console.WriteLine("Your speed in miles/h is {0}", mph);
+                //Refactored these Console.WriteLines with string interpolation
+                Console.WriteLine($"Your speed in meters/sec is {mps}");
+                Console.WriteLine($"Your speed in km/h is {kph}");
+                Console.WriteLine($"Your speed in miles/h is {mph}");
             }
             catch (Exception ex)
             {
