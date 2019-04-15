@@ -1,0 +1,9 @@
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\bin\Debug\howto_throw_standard_exceptions.exe
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\bin\Debug\howto_throw_standard_exceptions.pdb
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.csprojAssemblyReference.cache
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.Form1.resources
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.Properties.Resources.resources
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.csproj.GenerateResource.cache
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.csproj.CoreCompileInputs.cache
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.exe
+C:\Users\chris\Downloads\howto_throw_standard_exceptions\obj\Debug\howto_throw_standard_exceptions.pdb

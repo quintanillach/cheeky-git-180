@@ -1,0 +1,12 @@
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\bin\Release\netcoreapp2.1\NLog.config
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\bin\Release\netcoreapp2.1\EssentialTrainingApp.deps.json
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\bin\Release\netcoreapp2.1\EssentialTrainingApp.runtimeconfig.json
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\bin\Release\netcoreapp2.1\EssentialTrainingApp.runtimeconfig.dev.json
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\bin\Release\netcoreapp2.1\EssentialTrainingApp.dll
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\bin\Release\netcoreapp2.1\EssentialTrainingApp.pdb
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\obj\Release\netcoreapp2.1\EssentialTrainingApp.csprojAssemblyReference.cache
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\obj\Release\netcoreapp2.1\EssentialTrainingApp.csproj.CoreCompileInputs.cache
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\obj\Release\netcoreapp2.1\EssentialTrainingApp.AssemblyInfoInputs.cache
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\obj\Release\netcoreapp2.1\EssentialTrainingApp.AssemblyInfo.cs
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\obj\Release\netcoreapp2.1\EssentialTrainingApp.dll
+C:\Users\chris\source\repos\quintanillach\mssa-ct1-quintanilla\EssentialTraining\EssentialTrainingApp\obj\Release\netcoreapp2.1\EssentialTrainingApp.pdb

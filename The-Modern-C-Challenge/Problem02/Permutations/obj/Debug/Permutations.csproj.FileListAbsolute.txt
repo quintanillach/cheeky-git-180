@@ -1,0 +1,10 @@
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\bin\Debug\Permutations.exe.config
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\bin\Debug\Permutations.exe
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\bin\Debug\Permutations.pdb
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.csprojAssemblyReference.cache
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.Form1.resources
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.Properties.Resources.resources
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.csproj.GenerateResource.cache
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.csproj.CoreCompileInputs.cache
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.exe
+C:\Users\chris\Downloads\The-Modern-C-Challenge-master\Problem02\Permutations\obj\Debug\Permutations.pdb

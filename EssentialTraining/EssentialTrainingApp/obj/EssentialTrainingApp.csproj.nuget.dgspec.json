@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chris\\source\\repos\\quintanillach\\mssa-ct1-quintanilla\\EssentialTraining\\EssentialTrainingApp\\EssentialTrainingApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chris\\source\\repos\\quintanillach\\mssa-ct1-quintanilla\\EssentialTraining\\EssentialTrainingApp\\EssentialTrainingApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\source\\repos\\quintanillach\\mssa-ct1-quintanilla\\EssentialTraining\\EssentialTrainingApp\\EssentialTrainingApp.csproj",
+        "projectName": "EssentialTrainingApp",
+        "projectPath": "C:\\Users\\chris\\source\\repos\\quintanillach\\mssa-ct1-quintanilla\\EssentialTraining\\EssentialTrainingApp\\EssentialTrainingApp.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\source\\repos\\quintanillach\\mssa-ct1-quintanilla\\EssentialTraining\\EssentialTrainingApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
