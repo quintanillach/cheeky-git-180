@@ -43,6 +43,9 @@ namespace Exceptions
                 Result = Calculator(Num1, Num2, op);
                 Console.WriteLine("\n{0} {1} {2} = {3}", Num1, op, Num2, Result);
             }
+
+            // This program uses multiple catch blocks to allow easier
+            // identification of the type of exception occurring
             catch (FormatException)
             {
                 Console.WriteLine("The number you typed is not valid");
@@ -53,7 +56,7 @@ namespace Exceptions
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Operation Error: {0} is not a valid op", ex.Message);
+                Console.WriteLine($"Operation Error: {ex.Message} is not a valid op");
             }
             Console.Read();
         }
