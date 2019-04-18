@@ -111,6 +111,10 @@ namespace Arrays
             // specifications of the fields. The rest of the program prints the results of 
             // the methods and waits for the user to press Enter to terminate.
             TwoDMatrix obj = new TwoDMatrix(2,3);
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("Convert a 2-D Array to a 1-D Array");
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("\n");
             Console.WriteLine("Enter the Elements : ");
             obj.ReadMatrix();
             Console.WriteLine("\t\t Given 2-D Array(Matrix) is : ");
