@@ -55,7 +55,7 @@ namespace Arrays
             {
                 for (int j = 0; j < N; j++)
                 {
-                    Console.WriteLine("a[{0},{1}]=", i, j);
+                    Console.WriteLine($"a[{i},{j}]=");
                     A[i, j] = System.Convert.ToInt32(Console.ReadLine());
                 }
             }
@@ -70,7 +70,7 @@ namespace Arrays
             {
                 for (int j = 0; j < N; j++)
                 {
-                    Console.Write("{0}\t", A[i, j]);
+                    Console.Write($"{A[i, j]}\t");
                 }
                 Console.Write("\n");
             }
@@ -96,7 +96,7 @@ namespace Arrays
             // as a one-dimensional matrix.
             for (int i = 0; i < M * N; i++)
             {
-                Console.WriteLine("{0}\t", b[i]);
+                Console.WriteLine($"{b[i]}\t");
             }
         }
  
