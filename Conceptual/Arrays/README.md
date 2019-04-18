@@ -6,5 +6,5 @@ Arrays are...
 
 This program takes an input of elements in a two-dimensional array and converts it to a one-dimensional array
 
-![2Dto1DArray Output](https://github.com/quintanillach/mssa-ct1-quintanilla/blob/master/images/2Dto1DArray.PNG)
+![2Dto1DArray Output](https://github.com/quintanillach/mssa-ct1-quintanilla/blob/master/images/2Dto1DArray(1).PNG)
 
