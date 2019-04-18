@@ -55,7 +55,7 @@ namespace Arrays
             {
                 for (int j = 0; j < N; j++)
                 {
-                    Console.WriteLine($"a[{i},{j}]=");
+                    Console.Write($"a[{i},{j}]=");
                     A[i, j] = System.Convert.ToInt32(Console.ReadLine());
                 }
             }
@@ -117,10 +117,10 @@ namespace Arrays
             Console.WriteLine("\n");
             Console.WriteLine("Enter the Elements : ");
             obj.ReadMatrix();
-            Console.WriteLine("\t\t Given 2-D Array(Matrix) is : ");
+            Console.WriteLine("Given 2-D Array(Matrix) is : ");
             obj.PrintD();
             obj.Convert();
-            Console.WriteLine("\t\t Converted 1-D Array is : ");
+            Console.WriteLine("Converted 1-D Array is : ");
             obj.PrintOneD();
             Console.ReadLine();
         }
