@@ -30,4 +30,20 @@ Sample Input
 10000
 ```
 
-![2Dto1DArray Output](https://github.com/quintanillach/mssa-ct1-quintanilla/blob/master/images/ArrayBinarySearch.PNG)
+![ArrayBinarySearch Output](https://github.com/quintanillach/mssa-ct1-quintanilla/blob/master/images/ArrayBinarySearch.PNG)
+
+### Copy Between Arrays
+
+This program copies a specific section from one array to another target array
+
+Sample Input
+```
+4
+2
+4
+6
+8
+6
+2
+```
+![CopyBetweenArrays Output]( https://github.com/quintanillach/mssa-ct1-quintanilla/blob/master/images/CopyBetweenArrays.PNG)
