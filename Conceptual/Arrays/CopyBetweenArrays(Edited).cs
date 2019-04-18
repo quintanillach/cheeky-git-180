@@ -14,6 +14,10 @@ namespace Arrays
  {
    static void Main()
    {
+    Console.WriteLine("--------------------------------------------");
+    Console.WriteLine("Copy Sections Between Arrays");
+    Console.WriteLine("--------------------------------------------");
+    Console.WriteLine("\n");
     // These integer variables are declared at the beginning of the program
     // since they are used throughout the method. None of them are assigned
     // values explicitly, which means the compiler assigns them a default
