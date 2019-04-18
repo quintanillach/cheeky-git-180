@@ -19,8 +19,8 @@ namespace Arrays
       // of the array. This program takes advantage of the .Length property, but
       // could also use an explicit value if desired -- though the alternative would
       // be poor practice since future changes would require more refactoring.
-       int[] ints = { 0, 10, 100, 1000, 1000000 };
-       Console.WriteLine("Array indices and elements: ");
+       int[] ints = new int[5];
+       Console.WriteLine("Enter the elements in ascending order: ");
        for (int i = 0; i < ints.Length; i++)
        {
         // Here, the for loop prints the array elements within the specified range
@@ -29,6 +29,7 @@ namespace Arrays
         // the $ operator for string interpolation. This serves to improve readability
         // without sacrificing function and continue the use of the alignment value, in
         // this case '-5', for the console display.
+        ints[i] = Convert.ToInt32(Console.ReadLine());
         Console.Write($"[{i}] = {ints[i], -5}");
        }
        Console.WriteLine();
@@ -68,7 +69,7 @@ namespace Arrays
        else
        {
            Console.WriteLine($"Object: {o} not found. "
-              + "Next larger object found at [{~index}].");
+              + $"Next larger object found at [{~index}].");
        }
     }
   }
