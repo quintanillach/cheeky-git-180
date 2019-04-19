@@ -5,8 +5,8 @@
  * Source URL: https://www.geeksforgeeks.org/c-sharp-interface//
  * Date Accessed: 04/19/2019
  */
- 
- using System;
+
+using System;
 
 namespace Interfaces
 {
@@ -27,6 +27,7 @@ namespace Interfaces
     // interface to "fulfill the contract"
     // Added the public access modifier for potential testing
     // Renamed methods using Pascal case
+    // Used expression-bodied members throughout
     public class Bicycle : Vehicle
     {
         // These integers are used as fields to allow each
