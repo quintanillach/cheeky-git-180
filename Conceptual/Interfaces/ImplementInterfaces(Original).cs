@@ -10,107 +10,106 @@
  
  namespace Interfaces
  {
-  // interface declaration 
-  interface Vehicle { 
-
-    // all are the abstract methods. 
-    void changeGear(int a); 
-    void speedUp(int a); 
-    void applyBrakes(int a); 
-  } 
-
-  // class implements interface 
-  class Bicycle : Vehicle{ 
-
-    int speed; 
-    int gear; 
-
-    // to change gear 
-    public void changeGear(int newGear) 
+    public interface Vehicle
     { 
-
-      gear = newGear; 
+        // These are abstract methods which do not have any 
+        public abstract void changeGear(int a); 
+        public abstract void speedUp(int a); 
+        public abstract void applyBrakes(int a); 
     } 
 
-    // to increase speed 
-    public void speedUp(int increment) 
-    { 
+      // class implements interface 
+      class Bicycle : Vehicle{ 
 
-      speed = speed + increment; 
-    } 
+        int speed; 
+        int gear; 
 
-    // to decrease speed 
-    public void applyBrakes(int decrement) 
-    { 
+        // to change gear 
+        public void changeGear(int newGear) 
+        { 
 
-      speed = speed - decrement; 
-    } 
+          gear = newGear; 
+        } 
 
-    public void printStates() 
-    { 
-      Console.WriteLine("speed: " + speed + 
-              " gear: " + gear); 
-    } 
-  } 
+        // to increase speed 
+        public void speedUp(int increment) 
+        { 
 
-  // class implements interface 
-  class Bike : Vehicle { 
+          speed = speed + increment; 
+        } 
 
-    int speed; 
-    int gear; 
+        // to decrease speed 
+        public void applyBrakes(int decrement) 
+        { 
 
-    // to change gear 
-    public void changeGear(int newGear) 
-    { 
+          speed = speed - decrement; 
+        } 
 
-      gear = newGear; 
-    } 
+        public void printStates() 
+        { 
+          Console.WriteLine("speed: " + speed + 
+                  " gear: " + gear); 
+        } 
+      } 
 
-    // to increase speed 
-    public void speedUp(int increment) 
-    { 
+      // class implements interface 
+      class Bike : Vehicle { 
 
-      speed = speed + increment; 
-    } 
+        int speed; 
+        int gear; 
 
-    // to decrease speed 
-    public void applyBrakes(int decrement){ 
+        // to change gear 
+        public void changeGear(int newGear) 
+        { 
 
-      speed = speed - decrement; 
-    } 
+          gear = newGear; 
+        } 
 
-    public void printStates() 
-    { 
-      Console.WriteLine("speed: " + speed + 
-              " gear: " + gear); 
-    } 
+        // to increase speed 
+        public void speedUp(int increment) 
+        { 
 
-  } 
+          speed = speed + increment; 
+        } 
 
-  class GFG { 
+        // to decrease speed 
+        public void applyBrakes(int decrement){ 
 
-    // Main Method 
-    public static void Main(String []args) 
-    { 
+          speed = speed - decrement; 
+        } 
 
-      // creating an instance of Bicycle 
-      // doing some operations 
-      Bicycle bicycle = new Bicycle(); 
-      bicycle.changeGear(2); 
-      bicycle.speedUp(3); 
-      bicycle.applyBrakes(1); 
+        public void printStates() 
+        { 
+          Console.WriteLine("speed: " + speed + 
+                  " gear: " + gear); 
+        } 
 
-      Console.WriteLine("Bicycle present state :"); 
-      bicycle.printStates(); 
+      } 
 
-      // creating instance of bike. 
-      Bike bike = new Bike(); 
-      bike.changeGear(1); 
-      bike.speedUp(4); 
-      bike.applyBrakes(3); 
+     class GFG
+     { 
+        // Main Method 
+        public static void Main(String []args) 
+        { 
 
-      Console.WriteLine("Bike present state :"); 
-      bike.printStates(); 
-    } 
-  } 
+            // creating an instance of Bicycle 
+            // doing some operations 
+            Bicycle bicycle = new Bicycle(); 
+            bicycle.changeGear(2); 
+            bicycle.speedUp(3); 
+            bicycle.applyBrakes(1); 
+
+            Console.WriteLine("Bicycle present state :"); 
+            bicycle.printStates(); 
+
+            // creating instance of bike. 
+            Bike bike = new Bike(); 
+            bike.changeGear(1); 
+            bike.speedUp(4); 
+            bike.applyBrakes(3); 
+
+            Console.WriteLine("Bike present state :"); 
+            bike.printStates(); 
+        } 
+     } 
 }
