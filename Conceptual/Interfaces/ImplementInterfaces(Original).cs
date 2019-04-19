@@ -7,19 +7,19 @@
  */
  
  using System;
- 
- namespace Interfaces
- {
+
+namespace Interfaces
+{
     public interface Vehicle
-    { 
+    {
         // These are abstract methods which do not
         // method bodies and forces the derived class
         // to override the abstract methods (known as dynamic polymorphism)
         // Added the public access modifier to give access to the interface
         // outside of the current assembly
-        void ChangeGear(int a); 
-        void SpeedUp(int a); 
-        void ApplyBrakes(int a); 
+        void ChangeGear(int a);
+        void SpeedUp(int a);
+        void ApplyBrakes(int a);
     }
 
     // The Bicycle class inherits from the Vehicle interface
@@ -32,8 +32,8 @@
         // These integers are used as fields to allow each
         // of the methods to write to memory within the class
         // and use consistent values without using redundant code
-        int speed; 
-        int gear; 
+        int speed;
+        int gear;
 
         // Each of these methods override the abstract methods
         // by declaring a parameter variable and assigning value
@@ -44,7 +44,7 @@
         public void SpeedUp(int increment) => speed = speed + increment;
 
         public void ApplyBrakes(int decrement) => speed = speed - decrement;
-        
+
         // Used string interpolation for readability
         public void printStates() => Console.WriteLine($"speed: {speed} \n gear: {gear}");
     }
@@ -54,42 +54,42 @@
     // the contract in the same way but are two separate
     // objects.
     public class Scooter : Vehicle
-    { 
-        int speed; 
-        int gear; 
+    {
+        int speed;
+        int gear;
 
-        public void ChangeGear(int newGear) => gear = newGear; 
+        public void ChangeGear(int newGear) => gear = newGear;
 
-        public void SpeedUp(int increment) => speed = speed + increment; 
+        public void SpeedUp(int increment) => speed = speed + increment;
 
         public void ApplyBrakes(int decrement) => speed = speed - decrement;
 
         public void printStates() => Console.WriteLine($"speed: {speed} \n gear: {gear}");
     }
 
-     public class VehicleState
-     { 
-        public static void Main(String []args) 
-        { 
+    public class VehicleState
+    {
+        public static void Main(String[] args)
+        {
             // Instantiate the an object 'bicycle' using
             // the default constructor for the Bicycle class
             // The parameters for each method inside the class
             // are passed using literals
-            Bicycle bicycle = new Bicycle(); 
-            bicycle.ChangeGear(2); 
-            bicycle.SpeedUp(3); 
-            bicycle.ApplyBrakes(1); 
+            Bicycle bicycle = new Bicycle();
+            bicycle.ChangeGear(2);
+            bicycle.SpeedUp(3);
+            bicycle.ApplyBrakes(1);
 
-            Console.WriteLine("Bicycle present state :"); 
-            bicycle.printStates(); 
+            Console.WriteLine("Bicycle present state :");
+            bicycle.printStates();
 
-            Scooter scooter = new Scooter(); 
-            scooter.ChangeGear(1); 
-            scooter.SpeedUp(4); 
-            scooter.ApplyBrakes(3); 
+            Scooter scooter = new Scooter();
+            scooter.ChangeGear(1);
+            scooter.SpeedUp(4);
+            scooter.ApplyBrakes(3);
 
-            Console.WriteLine("Scooter present state :"); 
-            scooter.printStates(); 
-        } 
-     } 
+            Console.WriteLine("Scooter present state :");
+            scooter.printStates();
+        }
+    }
 }
