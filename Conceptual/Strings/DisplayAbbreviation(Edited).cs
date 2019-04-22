@@ -6,15 +6,12 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 // Renamed the namespace, class, and methods using Pascal case per .NET conventions
 namespace Strings
 {
     // Added the public access modifier for consistency
-   public class DisplayAbbreviation
+    public class DisplayAbbreviation
     {
         // Here the field 'str' is declared to allow all methods to access
         // one variable rather than create separate instances. The original
@@ -31,8 +28,9 @@ namespace Strings
             // The ReadData() method simply requests the user to input
             // a string to abbreviate and assigns the value to the
             // 'Str' property
+            // Added 'ToLower' property to maintain proper acronym format
             Console.WriteLine("Enter a String : ");
-            Str = Console.In.ReadLine();
+            Str = Console.ReadLine().ToLower();
         }
 
         public void Abbreviate()
@@ -68,7 +66,7 @@ namespace Strings
             // a space, tab, or line break, the element is cast converted
             // to an integer value then cast converted just as above to a
             // unicode character. This value is then appended to a '.'
-            for (int i = 0; i < Str.Length -1; i++)
+            for (int i = 0; i < Str.Length - 1; i++)
             {
                 if (stringLength[i] == ' ' || stringLength[i] == '\t' || stringLength[i] == '\n')
                 {
@@ -89,6 +87,9 @@ namespace Strings
 
         public static void Main()
         {
+            Console.WriteLine("----------------------------------------");
+            Console.WriteLine("Convert a string to an acronym");
+            Console.WriteLine("----------------------------------------\n");
             // The Main() method only contains the default constructor
             // which instantiates the class as an object and then
             // passes a copy of the address of the object to

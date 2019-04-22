@@ -14,42 +14,59 @@ namespace Basics
     {
         public static void Main()
         {
-            // The username and password variables are declared here along with
-            // integer variables 
+            // Refactored the variable 'success' from integer type
+            // to boolean type; added title block
             string username, password;
-            int attempts = 0, success = 0;
-            Console.Write("\n\nCheck username and password :\n");
-            Console.Write("N.B. : Defaule username and password is : username and password\n");
-            Console.Write("---------------------------------\n");
+            int attempts = 0;
+            bool success = false;
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Check username and password :");
+            Console.WriteLine("NOTE : Default username and password is - username and password");
+            Console.WriteLine("---------------------------------\n");
+
+            // The do-while loop executes the code in the do segment
+            // at least once while the specified boolean expression
+            // evaluates to true
             do
             {
-                Console.Write("Input a username: ");
+                Console.Write("Input an username: ");
                 username = Console.ReadLine();
 
                 Console.Write("Input a password: ");
                 password = Console.ReadLine();
 
+                // This if-else statement checks if both the username
+                // and password match the variables. If they do not
+                // match the attempts variable increases by a value of 1
+                // and a message is displayed to the user with the number
+                // of attempts so far.
                 if (username == "username" && password == "password")
                 {
-                    success = 1;
+                    success = true;
                     attempts = 3;
                 }
-
                 else
                 {
-                    success = 0;
                     attempts++;
+                    Console.WriteLine("\n Login not successful.After three attempts, your account will be temporarily disabled");
+                    Console.WriteLine($"Attempts : {attempts}\n");
                 }
             }
-            while ((username != "username" || password != "password")
-                    && (attempts != 3));
-            if (success == 0)
+
+            // The while block specifies the conditions in which the
+            // following code block executes. In this case the while loop
+            // breaks when attempts == 3. 
+            while (attempts < 3);
+
+            // Finally, this if-else statement evaluate the success
+            // variable and verifies the user login as successful or not
+            if (success != true)
             {
-                Console.Write("\nLogin attemp more than three times. Try later!\n\n");
+                Console.WriteLine("Login temporary disabled. Please try again later.");
             }
-            else if (success == 1)
+            else
             {
-                Console.Write("\nPassword entered successfull!\n\n");
+                Console.WriteLine("\nLogin successful!");
             }
         }
     }

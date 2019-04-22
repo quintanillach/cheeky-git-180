@@ -37,8 +37,9 @@ namespace Structs
             // and then converted through TryParse for
             // protection against invalid input
             int dd = 0, mm = 0, yy = 0;
-            Console.Write("\n\nCreate a nested struct and store data in an array :\n");
-            Console.Write("-------------------------------------------------------\n");
+            Console.WriteLine("-------------------------------------------------------");
+            Console.WriteLine("Employee Data :");
+            Console.WriteLine("-------------------------------------------------------");
             Console.WriteLine("Insert the number of employees for you dataset : ");
             string totalEmployees = (Console.ReadLine());
             int.TryParse(totalEmployees, out int total);
@@ -58,22 +59,22 @@ namespace Structs
                 string name = Console.ReadLine();
                 emp[i].eName = name;
 
-                Console.Write("Input day of the birth : ");
+                Console.Write("Input day of the birth [DD] : ");
                 dd = Convert.ToInt32(Console.ReadLine());
                 emp[i].Date.Day = dd;
 
-                Console.Write("Input month of the birth : ");
+                Console.Write("Input month of the birth [MM] : ");
                 mm = Convert.ToInt32(Console.ReadLine());
                 emp[i].Date.Month = mm;
 
-                Console.Write("Input year for the birth : ");
+                Console.Write("Input year for the birth [YY] : ");
                 yy = Convert.ToInt32(Console.ReadLine());
                 emp[i].Date.Year = yy;
 
                 // Added printing function for user to verify
                 // information is correct
-                Console.WriteLine($"Employee Name: {emp[i].eName}");
-                Console.WriteLine($"Date of Birth: {emp[i].Date.Month}/{emp[i].Date.Day}/{emp[i].Date.Year}");
+                Console.WriteLine($"\nEmployee Name: {emp[i].eName}");
+                Console.WriteLine($"Date of Birth: {emp[i].Date.Month}/{emp[i].Date.Day}/{emp[i].Date.Year} \n");
             }
 
             Console.ReadLine();

@@ -16,6 +16,10 @@ namespace Basics
     {
         public static void Main()
         {
+            Console.WriteLine("-------------------------------------------------------------------------");
+            Console.WriteLine("Compute the Average of a Set of Values :");
+            Console.WriteLine("-------------------------------------------------------------------------\n");
+
             // The original segment declared multiple integer variables on the same line
             // and did not use the declared variables until the end of the program.
             // This detracted from readability and easy identification of the
@@ -39,7 +43,7 @@ namespace Basics
             // stops receiving input and proceeds to the next function only when the 
             // user inputs the stated number of elements.
             int[] a = new int[m];
-            Console.WriteLine("Enter the Array Elements ");
+            Console.WriteLine("Enter the Array Elements (Press enter after each element) : ");
             for (i = 0; i < m; i++)
             {
                 a[i] = int.Parse(Console.ReadLine());
@@ -56,7 +60,7 @@ namespace Basics
                 sum += a[i];
             }
             avg = sum / m;
-            Console.WriteLine("Average is {0}", avg);
+            Console.WriteLine($"\nAverage is {avg}");
             Console.ReadLine();
         }
     }

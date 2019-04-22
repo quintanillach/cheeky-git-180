@@ -31,8 +31,9 @@ namespace Basics
             // point type numbers. The floats are then assigned to the
             // local variables and used in several equations to calculate
             // the speed in miles per hour and kilometers per hour
-            Console.WriteLine("A program to calculate speed based on given time and distance");
             Console.WriteLine("-------------------------------------------------------------");
+            Console.WriteLine("A program to calculate speed based on given time and distance");
+            Console.WriteLine("-------------------------------------------------------------\n");
 
             // Added try-catch blocks to handle general
             // errors. These errors would most likely result from

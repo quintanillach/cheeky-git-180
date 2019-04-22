@@ -23,10 +23,9 @@ namespace Basics
             float radius, length, width, baseT, heightT;
             double area = 0;
 
-            Console.Write("\n\n");
-            Console.Write("A menu driven program to compute the area of various geometrical shape:\n");
-            Console.Write("-------------------------------------------------------------------------");
-            Console.Write("\n\n");
+            Console.WriteLine("-------------------------------------------------------------------------");
+            Console.WriteLine("A menu driven program to compute the area of various geometrical shape:");
+            Console.WriteLine("-------------------------------------------------------------------------\n");
 
             // The user is given a menu of shapes to choose from
             // which displays clear function of the program

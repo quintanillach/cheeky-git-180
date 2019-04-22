@@ -1,7 +1,8 @@
-/* Purpose: C# program to check if a given year is a leap year
+/* 
+ * Purpose: C# program to check if a given year is a leap year
  * Source: Sanfoundry
  * Source Author: Manish Bhojasia
- * Source URL:
+ * Source URL: https://www.sanfoundry.com/csharp-programs-check-leap-year/
  * Date Accessed: 03/26/2019
  */
 
@@ -17,6 +18,11 @@ namespace LeapYearChecker
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("Check if a Given Year is a Leap Year");
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("\n");
+
             // The LeapYear() constructor  is the default constructor created
             // implicitly by C# which sets the member variables to the default
             // values. The method possesses the same name as the class.

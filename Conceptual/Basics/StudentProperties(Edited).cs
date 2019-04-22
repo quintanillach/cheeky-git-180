@@ -40,6 +40,11 @@ namespace Functions
 
         public static void Main()
         {
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("Demonstrate the Properties of a Class");
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("\n");
+
             // This program uses a default constructor to instantiate an object
             // of the same name as the class -- in this case 'Student'. The program
             // then prints the details of the student. The original program did not allow

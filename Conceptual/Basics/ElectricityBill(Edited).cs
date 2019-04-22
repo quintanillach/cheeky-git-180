@@ -24,19 +24,18 @@ namespace Basics
             decimal amountConsumed, energyCharge, subtotal = 0, surcharge, total;
             string custName;
 
-            Console.WriteLine(" ");
-            Console.WriteLine("Calculate Electricity Bill:");
             Console.WriteLine("----------------------------");
-            Console.WriteLine(" ");
+            Console.WriteLine("Calculate Electricity Bill");
+            Console.WriteLine("----------------------------\n");
 
             // Added type of unit for realism
             // The program displays a request for the customer's information
             // and total consumption to calculate the bill
             // The input is converted to the appropriate numerical type
             // and assigned to the variables above
-            Console.Write("Input Customer ID :");
+            Console.Write("Input Customer ID : ");
             custID = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Input the name of the customer :");
+            Console.Write("Input the name of the customer : ");
             custName = Console.ReadLine();
             Console.Write("Input amount of electricity consumed by the customer (kwH) : ");
             amountConsumed = Convert.ToDecimal(Console.ReadLine());
@@ -84,8 +83,8 @@ namespace Basics
             Console.WriteLine("Electricity Bill");
             Console.WriteLine($"Customer IDNO                       : {custID}");
             Console.WriteLine($"Customer Name                       : {custName}");
-            Console.WriteLine($"unit Consumed                       : {amountConsumed}");
-            Console.WriteLine($"Amount Charges @Rs. {energyCharge}  per kwH : {surcharge}");
+            Console.WriteLine($"Units (kwH) Consumed                : {amountConsumed}");
+            Console.WriteLine($"Amount Charges @Rs. {energyCharge}  per kwH   : {surcharge}");
             Console.WriteLine($"Surchage Amount                     : {subtotal}");
             Console.WriteLine($"Net Amount Paid By the Customer     : {total}");
         }

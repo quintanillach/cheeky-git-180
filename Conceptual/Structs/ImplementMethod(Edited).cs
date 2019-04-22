@@ -4,7 +4,7 @@
  * Source URL: https://www.w3resource.com/csharp-exercises/structure/csharp-structure-exercise-10.php
  * Date Accessed: 04/07/2019
  */
- 
+
 using System;
 
 namespace Structs
@@ -83,9 +83,10 @@ namespace Structs
     {
         static void Main()
         {
-            Console.Write("\n\nMethod that returns a structure  :\n");
-            Console.Write("--------------------------------------\n");
-            
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("Method that returns a structure  :");
+            Console.WriteLine("--------------------------------------");
+
             // This instantiation is an example of type-inference
             // The compiler deduces the type based on the Square()
             // specification.
