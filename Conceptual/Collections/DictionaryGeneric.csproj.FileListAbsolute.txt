@@ -1,0 +1,7 @@
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\bin\Debug\DictionaryBase.exe.config
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\bin\Debug\DictionaryBase.exe
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\bin\Debug\DictionaryBase.pdb
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\obj\Debug\DictionaryGeneric.csprojAssemblyReference.cache
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\obj\Debug\DictionaryGeneric.csproj.CoreCompileInputs.cache
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\obj\Debug\DictionaryBase.exe
+C:\Users\c.quintanilla\source\repos\mssa-ct1-quintanilla-master\Conceptual\Collections\DictionaryBase\obj\Debug\DictionaryBase.pdb
