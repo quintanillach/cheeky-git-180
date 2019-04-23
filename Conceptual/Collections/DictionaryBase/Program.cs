@@ -1,4 +1,4 @@
-﻿/*
+/*
  * C# Program to demonstrate the properties of the Dictionary class
  * Source: Microsoft Docs
  * Source Author: N/A
