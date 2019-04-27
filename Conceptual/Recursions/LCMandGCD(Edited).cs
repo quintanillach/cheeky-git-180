@@ -1,4 +1,5 @@
-/* C# program to find the least common multiplier and the greatest common denominator of a pair of numbers
+/* 
+ * C# program to find the least common multiplier and the greatest common denominator of a pair of numbers
  * Source: W3Resource
  * Source Author: 
  * Source URL: https://www.w3resource.com/csharp-exercises/recursion/csharp-recursion-exercise-12.php
