@@ -1,3 +1,5 @@
+# Data Structures
+
 ## Arrays
 
 ### 2D to 1DArray
