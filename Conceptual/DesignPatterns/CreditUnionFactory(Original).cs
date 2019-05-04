@@ -1,3 +1,11 @@
+/*
+ * C# Program to illustrate factory design pattern using credit unions
+ * Source: LinkedIn Learning
+ * Source Author: Reynald Adolphe
+ * Source URL: https://www.linkedin.com/learning/c-sharp-design-patterns-part-1/code-the-factory-pattern
+ * Date Accessed: 04/30/2019
+ */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
