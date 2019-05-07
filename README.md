@@ -32,9 +32,11 @@ A repository intended to demonstrate my knowledge of the C# programming language
 
 ## Organization Strategy:
 
-	The repository is organized into multiple folders to separate programs by use as well as dividing Solutions into its unique Projects 	which may require unique explanations for their interaction.
+	The repository is organized into multiple folders to separate programs by use as well as dividing Solutions into its unique
+	Projects which may require unique explanations for their interaction.
 
-	The naming convention within the /Conceptual is <CATEGORY_NAMESPACE> for organization without creating additional folder instrastructure
+	The naming convention within the /Conceptual is <CATEGORY_NAMESPACE> for organization without creating additional folder
+	instrastructure
 
 ## Authors
 
