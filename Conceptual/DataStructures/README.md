@@ -1,5 +1,17 @@
 # Data Structures
 
+[2D to 1D Array] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#2d-to-1darray)
+[Array Binary Search] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#array-binary-search)
+[Check If BST] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#check-if-bst)
+[Copy Between Arrays] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#copy-between-arrays)
+[Kadane's Algorithm] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#kadanes-algorithm)
+[Linked List Binary Search] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#linked-list-binary-search)
+[Next Greater Element] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#next-greater-element)
+[Power of Two] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#power-of-two)
+[Shuffle Array] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#shuffle-array)
+[Stack Operations - Push/Pop] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#stack-operations---pushpop)
+[Stock Span Problem] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#stock-span-problem)
+
 ### 2D to 1DArray
 
 This program takes an input of elements in a two-dimensional array and converts it to a one-dimensional array
@@ -154,3 +166,19 @@ Sample Input
 4
 ```
 ![StackPushPop Output]( https://github.com/quintanillach/mssa-ct1-quintanilla/blob/master/images/StackPushPop.PNG)
+
+### Stock Span Problem
+
+This is a menu-driven program to add and remove element from the memory to illustrate the concept of a stack.
+
+Sample Input
+```
+6
+10
+13
+14
+11
+9
+15
+```
+![StockSpan Output]( https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/StockSpan.PNG)
