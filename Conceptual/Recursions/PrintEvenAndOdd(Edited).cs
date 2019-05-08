@@ -14,23 +14,23 @@ namespace Recursion
         public static void Main()
         {
             Console.WriteLine(" -------------------------------------------------------------");
-            Console.Write("\n Recursion : Print even or odd numbers in a given range :");
-            Console.Write(" -------------------------------------------------------------\n");
+            Console.WriteLine(" Recursion : Print even or odd numbers in a given range :");
+            Console.WriteLine(" -------------------------------------------------------------\n");
 
             // Refactored n as string to implement TryParse for protection
             // against invalid input
             Console.Write(" Input the range to print starting from 1 : ");
-            string n = (Console.ReadLine()); 
+            string n = (Console.ReadLine());
             int.TryParse(n, out int maxRange);
 
             Console.WriteLine($"\n All even numbers from 1 to {maxRange} are : ");
             // The EvenAndOdd method is called with two as the first even value
             EvenAndOdd(2, maxRange);
 
-            Console.WriteLine($"\n\n All odd numbers from 1 to {maxRange} are : ");
+            Console.WriteLine($"\nAll odd numbers from 1 to {maxRange} are : ");
             // The EvenAndOdd method is called with one as the first odd value
             EvenAndOdd(1, maxRange);
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
 
             return;
         }

@@ -38,7 +38,7 @@ namespace Strings
             Console.WriteLine("Mark of Subject2 : ");
             m2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(" Mark of Subject3 : ");
+            Console.WriteLine("Mark of Subject3 : ");
             m3 = Convert.ToInt32(Console.ReadLine());
 
             // Based on the user input, the variables are then summed up
@@ -48,8 +48,8 @@ namespace Strings
             // prints these values before moving on the next segment.
             t = m1 + m2 + m3;
             p = t / 3.0f;
-            Console.WriteLine("Total : ", +t);
-            Console.WriteLine("Percentage : ", +p);
+            Console.WriteLine($"Total : {t}");
+            Console.WriteLine($"Percentage : {p}");
 
             // Changed the if functions to else if functions for readability
             // Changed the values in the if statement to correspond with logical

@@ -72,22 +72,32 @@ namespace Recursion
             string n = (Console.ReadLine());
             int.TryParse(n, out int arrayElements);
 
-            Console.Write($" Input {arrayElements} elements in the array :\n");
-
-            // The for loop iterates through the array and displays a request
-            // for the user input the digits for Permutation
-            for (int i = 0; i < arrayElements; i++)
+            if (arrayElements <= 5)
             {
-                Console.Write($" Element - {i} : ");
-                // Refactored using TryParse for protection from unexpected input
-                string _element = (Console.ReadLine());
-                int.TryParse(_element, out int element);
-                arr1[i] = element;
+                Console.Write($" Input {arrayElements} elements in the array :\n");
+
+                // The for loop iterates through the array and displays a request
+                // for the user input the digits for Permutation
+                for (int i = 0; i < arrayElements; i++)
+                {
+                    Console.Write($" Element - {i} : ");
+                    // Refactored using TryParse for protection from unexpected input
+                    string _element = (Console.ReadLine());
+                    int.TryParse(_element, out int element);
+                    arr1[i] = element;
+                }
+
+                Console.WriteLine($"\n The Permutations with a combination of {arrayElements} digits are : ");
+                test.PrintPermutation(arr1, 0, arrayElements - 1);
+                Console.Write("\n\n");
             }
 
-            Console.WriteLine($"\n The Permutations with a combination of {arrayElements} digits are : ");
-            test.PrintPermutation(arr1, 0, arrayElements - 1);
-            Console.Write("\n\n");
+            else
+            {
+                Console.WriteLine("Too many elements");
+            }
+
+            Console.ReadLine();
         }
     }
 }

@@ -48,7 +48,7 @@ namespace Recursions
 			{
 			    Console.Write($"{FindFibonacci(i)} ");
 			}
-			Console.ReadKey();
+			Console.ReadLine();
 		}
 	}
 }

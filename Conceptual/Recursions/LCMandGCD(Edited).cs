@@ -8,7 +8,6 @@
 
 
 using System;
-using System.Text;
 
 namespace Recursions
 {
@@ -60,7 +59,7 @@ namespace Recursions
             }
             else
             {
-                return gcd(n2, n1 % n2);
+                return GCD(n2, n1 % n2);
             }
         }
     }
