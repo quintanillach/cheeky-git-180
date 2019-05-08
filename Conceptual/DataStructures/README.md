@@ -1,16 +1,16 @@
 # Data Structures
 
-[2D to 1D Array] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#2d-to-1darray)
-[Array Binary Search] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#array-binary-search)
-[Check If BST] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#check-if-bst)
-[Copy Between Arrays] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#copy-between-arrays)
-[Kadane's Algorithm] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#kadanes-algorithm)
-[Linked List Binary Search] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#linked-list-binary-search)
-[Next Greater Element] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#next-greater-element)
-[Power of Two] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#power-of-two)
-[Shuffle Array] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#shuffle-array)
-[Stack Operations - Push/Pop] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#stack-operations---pushpop)
-[Stock Span Problem] (https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#stock-span-problem)
+1.  [2D to 1D Array](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#2d-to-1darray)
+2.  [Array Binary Search](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#array-binary-search)
+3.  [Check If BST](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#check-if-bst)
+4.  [Copy Between Arrays](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#copy-between-arrays)
+5.  [Kadane's Algorithm](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#kadanes-algorithm)
+6.  [Linked List Binary Search](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#linked-list-binary-search)
+7.  [Next Greater Element](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#next-greater-element)
+8.  [Power of Two](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#power-of-two)
+9.  [Shuffle Array](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#shuffle-array)
+10. [Stack Operations - Push/Pop](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#stack-operations---pushpop)
+11. [Stock Span Problem](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/DataStructures#stock-span-problem)
 
 ### 2D to 1DArray
 
