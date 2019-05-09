@@ -1,10 +1,10 @@
 # Recursions
 
-1.  [Fibonacci Sequence]()
-2.  [LCM and GCD]()
-3.  [Possible Permutations]()
-4.  [Print Decimal to Binary]()
-5.  [Print Even and Odd]()
+1.  [Fibonacci Sequence](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Recursions#fibonacci-sequence)
+2.  [LCM and GCD](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Recursions#lcm-and-gcd)
+3.  [Possible Permutations](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Recursions#possible-permutations)
+4.  [Print Decimal to Binary](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Recursions#print-decimal-to-binary)
+5.  [Print Even and Odd](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Recursions#print-even-and-odd)
 
 ### Fibonacci Sequence
 
@@ -12,7 +12,7 @@
 Sample Input
 
 ```
-
+12
 ```
 
 ![FibonacciSequence Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/FibonacciSequence.PNG)
@@ -23,7 +23,8 @@ Sample Input
 Sample Input
 
 ```
-
+7
+99
 ```
 
 ![LCMandGCD Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/LCMandGCD.PNG)
@@ -45,7 +46,7 @@ Sample Input
 Sample Input
 
 ```
-
+1234
 ```
 
 ![PrintDecToBin Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/PrintDecToBin.PNG)
@@ -56,7 +57,7 @@ Sample Input
 Sample Input
 
 ```
-
+25
 ```
 
 ![PrintEvenAndOdd Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/PrintEvenAndOdd.PNG)
