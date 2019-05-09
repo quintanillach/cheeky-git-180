@@ -1,9 +1,24 @@
 # Challenge Programs
 
-1.  [Apples and Oranges](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#apples-and-oranges)
-2.  [Data Types](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#data-types)
-3.  [Meal Total Cost](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#meal-total-cost)
-4.  [Phonebook Dictionary](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#phonebook-dictionary)
+1.  [Age Instances](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#age-instances)
+2.  [Apples and Oranges](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#apples-and-oranges)
+3.  [Data Types](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#data-types)
+4.  [Meal Total Cost](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#meal-total-cost)
+5.  [Odd and Even Characters](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#odd-and-even-characters)
+6.  [Phonebook Dictionary](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/ChallengePrograms#phonebook-dictionary)
+
+### Age Instances
+
+
+Sample Input
+
+```
+8
+16
+24
+```
+
+![AgeInstances Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/AgeInstances.PNG)
 
 ### Apples and Oranges
 
@@ -45,6 +60,20 @@ Sample Input
 ```
 
 ![MealTotalCost Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/MealTotalCost.PNG)
+
+### Odd and Even Characters
+
+
+Sample Input
+
+```
+Hello
+Aloha
+Bonjour
+Greetings
+```
+
+![OddEvenChars Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/OddEvenChars.PNG)
 
 ### Phonebook Dictionary
 
