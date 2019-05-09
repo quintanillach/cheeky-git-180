@@ -1,7 +1,19 @@
 # Sorting
 
-1.  [Selection Sort](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Sorting#selection-sort)
-2.  [Shell Sort](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Sorting#shell-sort)
+1.  [Bubble Sort](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Sorting#shell-sort)
+2.  [Selection Sort](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Sorting#selection-sort)
+3.  [Shell Sort](https://github.com/quintanillach/mssa-sample-portfolio/tree/master/Conceptual/Sorting#shell-sort)
+
+### Bubble Sort
+
+
+Sample Input
+
+```
+64 34 25 12 22 11 90
+```
+
+![BubbleSort Output](https://github.com/quintanillach/mssa-sample-portfolio/blob/master/images/BubbleSort.PNG)
 
 ### Selection Sort
 
