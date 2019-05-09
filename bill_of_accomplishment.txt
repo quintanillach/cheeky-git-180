@@ -1,0 +1,8 @@
+I believe my portfolio deserves a 96 percent for meeting all outlined tasks, providing each
+segment for the entire 50 programs, and presenting them in a professional manner. Each program 
+was refactored using the concepts learned throughout the course and all are functional and less 
+prone to crashes than the original source code. The portfolio also includes several challenge 
+programs, the most difficult method of learning recommended in the syllabus. The portfolio 
+could be made a 100 percent worthy product if I were to write tests for at least five of the 
+programs to prove this concept. I could also write a few original programs to show creativity 
+and added effort.
